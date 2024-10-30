@@ -22,8 +22,8 @@ function Projects() {
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Ecart}
-              title="E Cart"
-              description="Developed a full-stack e-commerce web application using the MERN stack that allows users to browse products, and add items to a cart."
+              title="E Commerce"
+              description="Developed a full-stack e-commerce web application using the MERN stack that is fully functional."
               ghLink="#"
               demoLink="#"
             />
