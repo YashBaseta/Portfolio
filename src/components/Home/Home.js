@@ -22,7 +22,7 @@ function Home() {
               </h1>
 
               <h1 style={{ fontSize:"3em", paddingLeft:"20px", textAlign:"left" }}>
-                <strong className="main-name"> YASH BASETA</strong>
+                <strong style={{color:"var(--clr-primary)"}}> YASH BASETA</strong>
               </h1>
 
               <div style={{ padding: 30 }} className="type">
