@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import homeIcon from "../../Assets/homeicons.svg";
-import homeIcon from "./home.png";
+import { ReactComponent as Logo } from '../../Assets/homeicons.svg';
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -32,12 +31,9 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeIcon}
-                alt="home pic"
-                className="img-fluid"
-                style={{ paddingTop: 50 }}
-              />
+            <Logo className="img-fluid"
+                style={{ paddingTop: 50 }}/>
+              
             </Col>
           </Row>
         </Container>
