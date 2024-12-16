@@ -24,7 +24,7 @@ function Projects() {
               imgPath={Ecart}
               title="E Commerce"
               description="Developed a full-stack e-commerce web application using the MERN stack that is fully functional."
-              ghLink="#"
+              ghLink="https://github.com/YashBaseta/E-commerce.git"
               demoLink="#"
             />
           </Col>
@@ -34,8 +34,8 @@ function Projects() {
               imgPath={Portfolio}
               title="Portfolio Website"
               description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website"
-              ghLink="#"
-              demoLink="#"
+              ghLink="https://github.com/YashBaseta/Portfolio.git"
+              demoLink="https://portfolio-smoky-two-79.vercel.app"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
@@ -43,7 +43,7 @@ function Projects() {
               imgPath={youtube}
               title="Youtube Summaries"
               description="Developed a machine learning-based model to automatically generate concise summaries of YouTube videos by processing their transcripts"
-              ghLink="#"
+              ghLink="https://github.com/YashBaseta/Youtube-video-summaries.git"
               demoLink="#"
             />
           </Col>
