@@ -13,7 +13,7 @@ import "./navbar.css";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const [{ themename, toggeltheme }] = useContext(ThemeContext);
+  const [{themename}] = useContext(ThemeContext);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -23,7 +23,7 @@ function NavBar() {
     }
   }
   useEffect(() => {
-    const body = document.body;
+    
     
   }, [themename]);
 
@@ -34,8 +34,7 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
-    >
+      className={navColour ? "sticky" : "navbar"}>
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <img
