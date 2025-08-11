@@ -47,7 +47,15 @@ function Projects() {
               demoLink="#"
             />
           </Col>
-
+  <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={youtube}
+              title="CollabNest - A Collaborative Platform"
+              description="Developed a collaborative platform that allows users to share and collaborate on projects in real-time, enhancing teamwork and productivity.it is built using the MERN stack and Socket.io for real-time communication. "
+              ghLink="https://github.com/YashBaseta/Youtube-video-summaries.git"
+              demoLink="#"
+            />
+          </Col>
          
         </Row>
       </Container>
