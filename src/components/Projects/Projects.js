@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCards";
 import youtube from "../../Assets/Projects/youtube.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Ecart from "../../Assets/Projects/ecart.png";
-import Collab from "../../Assets/Projects/CollabNest.png";
+import Collab from "../../Assets/Projects/collab.png";
 
 
 import "./project.css";
@@ -38,7 +38,15 @@ function Projects() {
               demoLink="#"
             />
           </Col>
-
+    <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={youtube}
+              title="Youtube Summaries"
+              description="Developed a machine learning-based model to automatically generate concise summaries of YouTube videos by processing their transcripts"
+              ghLink="https://github.com/YashBaseta/Youtube-video-summaries.git"
+              demoLink="#"
+            />
+          </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
@@ -48,15 +56,7 @@ function Projects() {
               demoLink="https://portfolio-smoky-two-79.vercel.app"
             />
           </Col>
-          <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={youtube}
-              title="Youtube Summaries"
-              description="Developed a machine learning-based model to automatically generate concise summaries of YouTube videos by processing their transcripts"
-              ghLink="https://github.com/YashBaseta/Youtube-video-summaries.git"
-              demoLink="#"
-            />
-          </Col>
+      
   
          
         </Row>
