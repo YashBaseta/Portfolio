@@ -22,6 +22,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
+              imgPath={Collab}
+              title="CollabNest - A Collaborative Platform"
+              description="Developed a collaborative platform that allows users to share and collaborate on projects in real-time, enhancing teamwork and productivity."
+              ghLink="https://github.com/YashBaseta/Youtube-video-summaries.git"
+              demoLink="#"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
               imgPath={Ecart}
               title="E Commerce"
               description="Developed a full-stack e-commerce web application using the MERN stack that is fully functional."
@@ -48,15 +57,7 @@ function Projects() {
               demoLink="#"
             />
           </Col>
-  <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={Collab}
-              title="CollabNest - A Collaborative Platform"
-              description="Developed a collaborative platform that allows users to share and collaborate on projects in real-time, enhancing teamwork and productivity."
-              ghLink="https://github.com/YashBaseta/Youtube-video-summaries.git"
-              demoLink="#"
-            />
-          </Col>
+  
          
         </Row>
       </Container>
