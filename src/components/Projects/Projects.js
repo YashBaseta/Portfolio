@@ -6,6 +6,7 @@ import ProjectCard from "./ProjectCards";
 import youtube from "../../Assets/Projects/youtube.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Ecart from "../../Assets/Projects/ecart.png";
+import Collab from "../../Assets/Projects/CollabNest.png";
 
 
 import "./project.css";
@@ -49,9 +50,9 @@ function Projects() {
           </Col>
   <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={youtube}
+              imgPath={Collab}
               title="CollabNest - A Collaborative Platform"
-              description="Developed a collaborative platform that allows users to share and collaborate on projects in real-time, enhancing teamwork and productivity.it is built using the MERN stack and Socket.io for real-time communication. "
+              description="Developed a collaborative platform that allows users to share and collaborate on projects in real-time, enhancing teamwork and productivity."
               ghLink="https://github.com/YashBaseta/Youtube-video-summaries.git"
               demoLink="#"
             />
