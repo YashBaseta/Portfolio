@@ -47,15 +47,7 @@ function Projects() {
               demoLink="#"
             />
           </Col>
-          <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={Portfolio}
-              title="Portfolio Website"
-              description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website"
-              ghLink="https://github.com/YashBaseta/Portfolio.git"
-              demoLink="https://portfolio-smoky-two-79.vercel.app"
-            />
-          </Col>
+          
       
   
          
